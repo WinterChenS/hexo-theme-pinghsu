@@ -8,7 +8,7 @@ headerLogoUrl: # 头部右上角logo图片地址，留空则取网站标题
 footerLogoUrl: # 底部左下角logo图片地址，留空则取网站标题
 favicon: /images/favicon.png # favicon地址，留空则不设favicon
 iosicon: /images/apple-touch-icon.png # apple touch icon 地址，留空则不设 apple touch icon
-since: 2016 # 站点起始时间
+since: 2017 # 站点起始时间
 
 # Menu Setting 菜单设置
 menu:
@@ -20,12 +20,12 @@ menu:
 
 # Archive Setting 归档页设置
 # month: 按月份归档，year: 按年份归档，默认按月份归档
-archive: year
+archive: month
 
 # Social Setting 社交设置
 social:
-  知乎: 
-  Github: 
+  csdn: https://blog.csdn.net/Winter_chen001 
+  Github: https://github.com/WinterChenS
 
 # ===========================================
 # Function Setting 功能设置
@@ -33,7 +33,7 @@ social:
 
 # 是否启用DNS预解析加速
 # 启用则会对CDN资源和Gravatar进行加速
-dnsPrefetch: true
+dnsPrefetch: false
 
 # 自定义CDN加速地址
 # 若设置，且启用DNS预解析，则会被加速，可以填写图床地址进行图片加载加速，或者加速其他cdn
@@ -152,4 +152,5 @@ music:
   server: # music platform: netease, tencent, kugou, xiami, baidu
   type: # song, playlist, album, search, artist
   auto: # music link, support: netease, tencent, xiami
-  autoplay: false # 是否自动播放
+  autoplay: false
+ # 是否自动播放
