@@ -106,7 +106,7 @@
             <% }); %>
             <% } %>
         </p>
-		<%- page.content %>
+		<%- replaceImg(page.content) %>
 		<% if (theme.reward.enable) { %>
 		<div style="text-align: center; margin: 20px 0;">
 			<p><%= theme.reward.text %></p>
@@ -155,7 +155,7 @@
             <span class="bottom-bar-item"><a href="<%- url_for(page.next.path) %>">→</a></span>
             <% } %>
 			<span class="bottom-bar-item"><a href="#footer">↓</a></span>
-			<span class="bottom-bar-item"><a href="#">↑</a></span>
+			<span class="bottom-bar-item"><a href="#top">↑</a></span>
 		</div>
 	</div>
 </div>
